@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry App</title>
+
+<style>
+/* body{
+    background-color: cornsilk;
+}
+.cl1{
+    background-color: rgba(249, 251, 252, 0.925);display: flex;justify-content: space-between;
+}
+/* .m1{
+    background-color: floralwhite;display: flex;justify-content: space-between;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+/* .m2{
+    background-color: rgb(235, 245, 245);display: flex;justify-items: center;
+} */
+#id1{
+align-content: center;
+
+
+/* #img1{
+    /* box-shadow: 0px 0px 16px rgba(17,17,26,0.1); */
+/*} */
+/*
+.h1{
+    /* background-color: aliceblue;color: rgb(148, 148, 218);  */
+    /* height: 30px; 
+            margin-right: 30px;
+            background-color: #59a1c9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            padding-left: 19px;
+            padding-right: 19px;
+
+            border: none;
+            border-radius: 20px;
+            font-weight: bold 500;font-size-adjust: 20px;
+            font-size: 11px; */
+}
+.cl2{
+    padding: 30px 20px;border-radius: 30px;
+} 
+
+.m1{
+            background-color: #f8f9fa;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #img1{
+            height: 35px;
+            margin-left: 20px;
+        }
+        .button{
+            height: 30px;
+            margin-right: 30px;
+            background-color: #59a1c9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            padding-left: 19px;
+            padding-right: 19px;
+            /* text-transform: uppercase; */
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 11px;
+
+        }
+        .m2{
+            height: 590px;
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          
+        }
+        #id1{
+            height: 500px;
+            width: 450px;
+         
+
+        }
+
+
+        #id2{
+            height: 500px;
+            width: 600px;
+          /* https://media2.giphy.com/media/JPgbfjx4d2sAAkQabX/giphy.webp?cid=ecf05e47i3qmn1h5t6jiwpaadwb23zw1775z0qccpxvq0zuc&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="test screen" */
+         /* background-image: url(https://media2.giphy.com/media/JPgbfjx4d2sAAkQabX/giphy.webp?cid=ecf05e47i3qmn1h5t6jiwpaadwb23zw1775z0qccpxvq0zuc&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="test screen");
+           /*  background-image: url(https://cdn.dribbble.com/users/1230012/screenshots/13929845/ui_up.png);   */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .test{
+            font-weight: 800;
+    font-size: 56px;
+    font-family: sans-serif;
+    color: #212529;
+        }
+        #id3{
+            height: 500px;
+            width: 600px;
+          /* https://media2.giphy.com/media/JPgbfjx4d2sAAkQabX/giphy.webp?cid=ecf05e47i3qmn1h5t6jiwpaadwb23zw1775z0qccpxvq0zuc&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="test screen" */
+         /* background-image: url(https://media2.giphy.com/media/JPgbfjx4d2sAAkQabX/giphy.webp?cid=ecf05e47i3qmn1h5t6jiwpaadwb23zw1775z0qccpxvq0zuc&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="test screen");
+           /*  background-image: url(https://cdn.dribbble.com/users/1230012/screenshots/13929845/ui_up.png);   */
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        @keyframes rotate {
+            from {
+    transform: translateX(0); /* Image starts at its original position (no translation) */
+  }
+  to {
+    transform: translateX(-100%); /* Image moves 100% of its width to the left (completely offscreen) */
+  }
+
+  /* from { transform: rotate(0deg); }
+  to { transform: rotate(180deg); } */
+}
+
+#img2 {
+    animation: slideRightToLeft 4s ease-in-out;
+  /* animation-name: rotate;
+  animation-duration: 4s; */
+}
+
+@keyframes rotate {
+            /* from {
+    transform: translateX(0); /* Image starts at its original position (no translation) */
+  }
+  to {
+    transform: translateX(-100%); /* Image moves 100% of its width to the left (completely offscreen) */
+  } 
+  from { transform: rotate(0deg); }
+  to { transform: rotate(180deg); }
+
+  #img2 {
+    /* animation: slideRightToLeft 4s ease-in-out; */
+  animation-name: rotate;
+  animation-duration: 4s;
+}
+        p{
+            font-weight: 500;
+    font-size: 1.75rem;
+    padding-right: 60px ;
+    font-family: sans-serif;
+        }
+
+
+</style>
+
+
+</head>
+<body>
+    
+     <div class="m1"> 
+    <div class="cl1">
+        <img id="img1" src="https://webapp.entri.app/static/media/entri_logo.070560667f4517788fb23d580d24d33a.svg" alt="Entry logo"> 
+        <!-- <h1>Entry</h1> -->
+    </div>
+    <div class="cl2">
+        <button class="button">START LeARNING</button>
+    </div>
+ </div> 
+     <div class="m2"> 
+    <div id="id1">
+        <h1 class="test">India’s best vernacular learning app for jobs.</h1>
+        <p class="p">Test-Prep & Job-Oriented courses in <a href="#">Telugu</a></p>
+        <button class="button">START LEARNING</button>
+    </div>
+    <div id="id2">
+        <img id="img2" src="https://media2.giphy.com/media/JPgbfjx4d2sAAkQabX/giphy.webp?cid=ecf05e47i3qmn1h5t6jiwpaadwb23zw1775z0qccpxvq0zuc&ep=v1_gifs_search&rid=giphy.webp&ct=g" alt="test screen">
+    <!-- <img id="img2" src="https://cdn.dribbble.com/userupload/12439840/file/original-ff619a37d5d694d5dd56fd828af1a0d8.png?resize=1024x768" alt="mobile"> -->
+    <!-- <img id="img2" src="https://tse2.mm.bing.net/th?id=OIP.kHE8wfJN6XKIs6ACNJs_xwHaKl&pid=Api&P=0&h=180" alt="Mobile"> -->
+    </div>
+    <!-- <div id="id3">
+        <img id="img2" src="../Images/download.jpg" alt="screen">
+    </div> -->
+ </div> 
+</body>
+</html>
